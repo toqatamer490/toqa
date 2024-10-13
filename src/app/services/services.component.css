@@ -1,0 +1,60 @@
+.title{
+  display: flex;
+  justify-content: center;
+  color:rgb(232, 194, 133) ;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+#ser{
+  transition: 0,7s ease;
+
+}
+#ser:hover{
+  transform: scale(1.1);
+}
+.btn-con{
+  background-color: rgb(232, 194, 133);
+  color: black;
+  text-decoration: none;
+  padding: 7px 32px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.btn-con:hover{
+  color: #000;
+  transform: scale(1.1);
+}
+@media (max-width: 768px) {
+
+  #ser{
+    font-size: 1.8rem;
+  }
+  #btn_card{
+    font-size: 1.5rem;
+  }
+  .about_imge{
+    margin-right: 0;
+    margin-bottom: 15%;
+    width: 100%;
+    height: auto;
+  }
+  .btn-con{
+    font-size: 1.2rem;
+    padding: 5px 20px;
+    margin-top: 20px;
+  }
+  .card-title{
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
+  p{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 1.5;
+    width:100%;
+    overflow: hidden;
+  }
+
+}
